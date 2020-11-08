@@ -72,12 +72,12 @@ A: all of the bottom node will equal all of the upper node + 1
 
 Q: how to calculate the num of nodes of a binary tree
 A: 
-<code>
-  level 0 : 2^0 = 1; // 1 node 
-  level 1 : 2^1 = 2; // 2 nodes
-  level 2 : 2^2 = 4; // 4 nodes
-  level 3 : 2^3 = 8; // 8 nodes
-</code>
+       
+    level   0 :   2^0 = 1;   // 1 node 
+    level   1 :   2^1 = 2;   // 2 nodes
+    level   2 :   2^2 = 4;   // 4 nodes
+    level   3 :   2^3 = 8;   // 8 nodes
+
 
 
 Q: how to figure out number of nodes within a binary tree?:
@@ -111,3 +111,18 @@ A: All nodes to the right must be greater than the parent node ( middle )
              /   \      /      \
            (9)  (37)   (104) (144)
    
+Q: What are unbalanced Binary Search Trees?:  
+A: where nodes are only inserted on one branch left or right - which becomes sort of a linked-list
+
+Q: what are the pros and cons of BST?:
+A: 
+  1. most operations on BST's are faster than O(n) 
+  2. they are ordered
+  3. we can keep the nodes anywhere in memory leading to a flexibility in size
+     which is to say ; we can keep growing our tree dynamically
+    
+Q: What are the cons of using BST?:
+A: There are no constant run-time operations of O(1), all operations require traversal
+
+
+
