@@ -18,6 +18,14 @@ class BinarySearchTree {
     }
     // create method in which will add to this tree
     insert(value){
+        // create new node and pass value to its constructor
+        const newNode = new Node(value);
+        // check if BinarySearchTree is empty || NULL.
+        // if root node is null it is empty
+        if(this.root === null){
+            // set root property with a instatiation of the new class with value
+            this.root = newNode;
+        }
 
     }
     // create method in which will lookup value from this tree ( traverse and return value )
@@ -33,3 +41,4 @@ class BinarySearchTree {
 
 // instantiate BinarySearchTree and set into const 
 const tree = new BinarySearchTree();
+tree.insert(9);
