@@ -62,4 +62,4 @@ Q: what is the depth?:
 A:
 
 Q: What is a Binary Tree?:
-A:
+A: a tree structure in which each node stemming from parent - has at maximum two children, this is a limited tree for the growth is curved by it being bound to - 2 at max child nodes per node
