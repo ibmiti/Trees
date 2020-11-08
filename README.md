@@ -61,16 +61,16 @@ A:
 Q: what is the depth?:
 A:
 
-Q: What is a Binary Tree?:
+Q: What is a Binary Tree?  :    
 A: a tree structure in which each node stemming from parent - has at maximum two children, this is a limited tree for the growth is curved by it being bound to - 2 at max child nodes per node
 
 Q: what is a Full binary tree ( FBT )?
 A: 
 
-Q: what is a perfect binary tree (PBT )?
+Q: what is a perfect binary tree (PBT )?           
 A: all of the bottom node will equal all of the upper node + 1
 
-Q: how to calculate the num of nodes of a binary tree
+Q: how to calculate the num of nodes of a binary tree    
 A: 
        
     level   0 :   2^0 = 1;   // 1 node 
