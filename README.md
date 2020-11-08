@@ -17,52 +17,63 @@ A: [ lookup O(log N), insert O(log N), delete O(log N) ]
 Q: What other data-structure is it similar to?:
 A: linked-list - notably; though linked-list is described as more of an linear tree structure - a tree with no leaves/nodes off its center
 
-Q: What is an AST?   :
-A: 
-
 Q: What differentiates Trees from arrays and linked-list?   :
 A: while they both can store data, arrays,and linkedlist do so in a linear fashion,
    while a tree stores things by heiracrchy e.g ; directory structure, coroporate structure - are both examples of hierarchical data
 
-Q: What are the pros and cons if any when/with using a Tree?   :
-A:
 
 Q: What is root?    :  
-A:
+A: the top most node is called a root or the parent node
 
-Q: what is parent?    :  
+Q: What is parent?    :  
 A: has linear relation with child?
 
 Q: what is child?    :   
 A: has linear upward relation to parent?
 
 
-Q:what is ancsestors?   :  
-A:
+Q: What is ancsestors?   :  
+A: ancestors are the upper node inreference to a child node, the ultimate ancestor being the root node 
 
 Q: what are Descendants?    :
-A:
+A: descendants are child nodes 
 
 Q: what is Internal nodes?   :
-A:
+A: any node that has child nodes are inner nodes any node without descendants are outer nodes or leaf node 
 
 Q: what are external nodes/leaves/leaf?  :
 A: very end of tree strucutre?
 
-Q: what is edge?  :
-A:
+Q: what is edge?  :      
+A: edges of a tree are generally referred to as the branches of the tree,
+   the branches carry nodes
 
-Q: what is level?   :
-A:
+Q: what is level?   :     
+A: each row of nodes beginning with the root 
 
-Q: what is the hieght?   :
+Q: What is the size of a binary tree? :    
+A: total number of node in the tree
+
+Q: what is the hieght?   :    
+A: is the largest number of edges in a path from the root node to a leaf node. Essentially, it is the height of the root node. Note that if a tree has only one node, then that node is at the same time the root node and the only leaf node, so the height of the tree is 0. On the other hand, if the tree has no nodes, it’s height is -1.
+
+
+
+Q: What is the height of a node ? :      
+A: is the largest number of edges in a path from that node to a leaf node
+
+Q: What is a leaf-node?  :       
 A:
 
 Q: what is the depth?   :
-A:
+A: is the number of edges in the path from the root node to that node.
+
+
 
 Q: What is a Binary Tree?  :    
 A: a tree structure in which each node stemming from parent - has at maximum two children, this is a limited tree for the growth is curved by it being bound to - 2 at max child nodes per node
+
+Q: 
 
 Q: what is a Full binary tree ( FBT )?   :
 A: 
@@ -140,3 +151,31 @@ A: During insertion operations, whenever we are inserting elements within the tr
 :::::: Red / Black Tree :::::::      
 Q: What is Red / Black Tree  :  
 A: used for balancing binary trees
+
+
+
+:::::: Binary heap :::::::         
+
+Q: What is a Binary heap? :    
+A: binary heap is a data-structure it is classically used to implement priority queues
+
+Q: what is it useful for? :   
+A: comparative operations, priority Queues
+
+Q: what is the run-time for the operations? :      
+A: lookup O(n), insert O(log N), delete O(log n)
+
+Q: must you balance a binary heap?  :  
+A: no you do not.
+
+
+::::: Trie ::::::
+
+Q: what is a trie data structure?   :
+A: there are another treebased lookup structure
+
+Q: What are prefixes used for within tries?    :  
+A: prefixes are equivalent to keys in arrays
+
+Q: what is the use case for Trie's?  :  
+A: [ Spell checkers/Auto suggest or correct spellings ] etc 
