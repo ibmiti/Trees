@@ -128,7 +128,7 @@ A: There are no constant run-time operations of O(1), all operations require tra
 
 
 
-:::::::: AVL Tree :::::::::
+:::::::: AVL Tree :::::::::     
 Q: What is AVL tree?    :   
 A: use for balancing binary trees
 
@@ -137,6 +137,6 @@ A: During insertion operations, whenever we are inserting elements within the tr
 
 
 
-:::::: Red / Black Tree :::::::
+:::::: Red / Black Tree :::::::      
 Q: What is Red / Black Tree  :  
 A: used for balancing binary trees
