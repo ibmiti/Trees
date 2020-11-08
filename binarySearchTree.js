@@ -62,11 +62,73 @@ class BinarySearchTree {
     }
     // create method in which will lookup value from this tree ( traverse and return value )
     lookup(value){
+        // check if root is empty 
+        if (!this.root) {
+            return false;
+        }
+        // set root to variable of currentNode 
+        // we will use this node to traverse the tree
+        let currentNode = this.root;
+        while(currentNode){
+            // if the value we are looking for is less than the current value
+            if(value < currentNode){
+                // go left , make currentNode == the left 
+                currentNode = currentNode.left;
+            } else if ( value > currentNode.value) {
+                // go right 
+                currentNode = currentNode.right;
+            } else if (currentNode.value === value){ // if the currentNodes value is a match then..
+                // then we have a match
+                return currentNode;
+            }
+        }
+        // we did not find value in tree
+        return false;
 
     }
     // create method in which will remove value from tree
-    remove(){
-
+    remove(value){
+        // if root does not have a value
+        if (!this.root){
+            return false;
+        }
+        // other wise ..
+        // let the current node == the root node
+        let currentNode = this.root;
+        // let the parent node == null
+        let parentNode = null;
+        // traverse the tree using the currentNode as sentry
+        while(currentNode){
+            // if the input value is less than the current nodes value then..
+            if(value < currentNode.value){
+                // the parent node is the currentNode  or vice-versa
+                parentNode = currentNode;
+                // since the value is less than the parent - we move left to search the left branch
+                currentNode = currentNode.left;
+            } else if ( value > currentNode.value){
+                parentNode = currentNode;
+                // move right
+                currentNode = currentNode.right;
+            } else if (currentNode.value === value) {
+                // there is a match
+                
+                if (currentNode.right === null){
+                    if(parentNode === null){
+                        this.root = currentNode.left;
+                    } else {
+                        if(currentNode.value < parentNode.value){
+                            parentNode.left = currentNode.left;
+                        } else {
+                            if(currentNode.value < parentNode.value){
+                                parentNode.left = currentNode.left;
+                            } else if (currentNode.value > parentNode.value) {
+                                    parentNode.right = currentNode.left;
+                            }
+                        }
+                    }
+                } return true;
+            } 
+        }
     }
 }
 
@@ -77,3 +139,4 @@ tree.insert(9);
 tree.insert(10);
 tree.insert(20);
 tree.insert(40);
+tree.lookup(9)
