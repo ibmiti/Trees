@@ -80,10 +80,10 @@ A:
 
 
 
-Q: how to figure out number of nodes within a binary tree?    :
+Q: how to figure out number of nodes within a binary tree?    :     
 A: a simple way would be to 2^h ( 2 to the power of the height of tree ), the height of the tree will define how many levels it has so a tree with a height of 3 ( levels ) would fit in an expression as ; ( 2 indicates bynary tree ) 2^3 - 1 === 7 
 
-Q: what does O(log N) mean for binary trees?    :
+Q: what does O(log N) mean for binary trees?    :    
 A: the choice of the next element in which to perform some action is one of several possibilities, but only one needs to be chosen,
 O (log N) is like looking through a phone book trying to find one name in which to eventually perform some action like [ call said number, copy said number, etc ... ]
 we can use divide and conquer to locate element/name in tree/book 
