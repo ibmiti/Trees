@@ -1,76 +1,76 @@
 # Trees - Datastructure
 
-Q: What is the Tree Datastructure?
+Q: What is the Tree Datastructure?    :
 A: A widely used abstract data-type, it simulates a hierchy
   - a hierarchical tree structure where the very top is the    parent node
     and the branching node are its child , or child nodes, I view the parent node as the tree above ground-level ; whilst the child nodes are spawning beneath like roots
 
-Q: Where do we see the example of this Tree Datastructure?:
+Q: Where do we see the example of this Tree Datastructure?   :
 A:
 
-Q: are there any operations we can perform upon Trees?:
+Q: are there any operations we can perform upon Trees?   :
 A: yes there are a few, [ lookup, insert, delete ]
 
-Q: What are there Run-times of each?
+Q: What are there Run-times of each? :
 A: [ lookup O(log N), insert O(log N), delete O(log N) ]
 
 Q: What other data-structure is it similar to?:
 A: linked-list - notably; though linked-list is described as more of an linear tree structure - a tree with no leaves/nodes off its center
 
-Q: What is an AST?:
+Q: What is an AST?   :
 A: 
 
-Q: WHat differentiates Trees from arrays and linked-list?:
+Q: WHat differentiates Trees from arrays and linked-list?   :
 A: while they both can store data, arrays,and linkedlist do so in a linear fashion,
    while a tree stores things by heiracrchy e.g ; directory structure, coroporate structure - are both examples of hierarchical data
 
-Q: What are the pros and cons if any when/with using a Tree?:
+Q: What are the pros and cons if any when/with using a Tree?   :
 A:
 
-Q: What is root?
+Q: What is root?    :  
 A:
 
-Q: what is parent?
+Q: what is parent?    :  
 A: has linear relation with child?
 
-Q: what is child?
+Q: what is child?    :   
 A: has linear upward relation to parent?
 
 
-Q:what is ancsestors?
+Q:what is ancsestors?   :  
 A:
 
-Q: what are Descendants?
+Q: what are Descendants?    :
 A:
 
-Q: what is Internal nodes?
+Q: what is Internal nodes?   :
 A:
 
-Q: what are external nodes/leaves/leaf?:
+Q: what are external nodes/leaves/leaf?  :
 A: very end of tree strucutre?
 
-Q: what is edge?:
+Q: what is edge?  :
 A:
 
-Q: what is level?:
+Q: what is level?   :
 A:
 
-Q: what is the hieght?:
+Q: what is the hieght?   :
 A:
 
-Q: what is the depth?:
+Q: what is the depth?   :
 A:
 
 Q: What is a Binary Tree?  :    
 A: a tree structure in which each node stemming from parent - has at maximum two children, this is a limited tree for the growth is curved by it being bound to - 2 at max child nodes per node
 
-Q: what is a Full binary tree ( FBT )?
+Q: what is a Full binary tree ( FBT )?   :
 A: 
 
-Q: what is a perfect binary tree (PBT )?           
+Q: what is a perfect binary tree (PBT )?   :          
 A: all of the bottom node will equal all of the upper node + 1
 
-Q: how to calculate the num of nodes of a binary tree    
+Q: how to calculate the num of nodes of a binary tree    :
 A: 
        
     level   0 :   2^0 = 1;   // 1 node 
@@ -80,10 +80,10 @@ A:
 
 
 
-Q: how to figure out number of nodes within a binary tree?:
+Q: how to figure out number of nodes within a binary tree?    :
 A: a simple way would be to 2^h ( 2 to the power of the height of tree ), the height of the tree will define how many levels it has so a tree with a height of 3 ( levels ) would fit in an expression as ; ( 2 indicates bynary tree ) 2^3 - 1 === 7 
 
-Q: what does O(log N) mean for binary trees?:
+Q: what does O(log N) mean for binary trees?    :
 A: the choice of the next element in which to perform some action is one of several possibilities, but only one needs to be chosen,
 O (log N) is like looking through a phone book trying to find one name in which to eventually perform some action like [ call said number, copy said number, etc ... ]
 we can use divide and conquer to locate element/name in tree/book 
