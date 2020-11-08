@@ -104,10 +104,10 @@ A: BST's preserve relationships, hashes do not preserve relationships
 Q: What are the rules for a BST?:
 A: All nodes to the right must be greater than the parent node ( middle )
    and all nodes to the left must contain values less than the parent node 
-<code>
+
                    (101) -- parent node
                 /         \
              (33)        (105)
              /   \      /      \
            (9)  (37)   (104) (144)
-</code>           
+   
