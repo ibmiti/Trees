@@ -20,7 +20,7 @@ A: linked-list - notably; though linked-list is described as more of an linear t
 Q: What is an AST?   :
 A: 
 
-Q: WHat differentiates Trees from arrays and linked-list?   :
+Q: What differentiates Trees from arrays and linked-list?   :
 A: while they both can store data, arrays,and linkedlist do so in a linear fashion,
    while a tree stores things by heiracrchy e.g ; directory structure, coroporate structure - are both examples of hierarchical data
 
@@ -91,17 +91,17 @@ we can use divide and conquer to locate element/name in tree/book
 
 ::::::::::::::::::::: Binary Search Tree ::::::::::::::::::::::::
 
-Q: What makes Binary Search tree different that Binary Tree
+Q: What makes Binary Search tree different that Binary Tree   :  
 A: Binary search tree: Used for searching. it is a Binary tree arranged where the left child contains only nodes with values less than the parent node, and where the right child only contains nodes with values greater than or equal to the parent.
    
 
-Q: What are BINARY SEARCH TREE's ( BST )useful for?:
+Q: What are BINARY SEARCH TREE's ( BST )useful for?   :   
 A: for comparing things, it is better than an hash map for this use
 
-Q: Why is BST better than Hash map for comparing elements?:
+Q: Why is BST better than Hash map for comparing elements?   :   
 A: BST's preserve relationships, hashes do not preserve relationships
 
-Q: What are the rules for a BST?:
+Q: What are the rules for a BST?   :  
 A: All nodes to the right must be greater than the parent node ( middle )
    and all nodes to the left must contain values less than the parent node 
 
@@ -111,17 +111,18 @@ A: All nodes to the right must be greater than the parent node ( middle )
              /   \      /      \
            (9)  (37)   (104) (144)
    
-Q: What are unbalanced Binary Search Trees?:  
+Q: What are unbalanced Binary Search Trees?   :     
 A: where nodes are only inserted on one branch left or right - which becomes sort of a linked-list
 
-Q: what are the pros and cons of BST?:
-A: 
-  1. most operations on BST's are faster than O(n) 
-  2. they are ordered
-  3. we can keep the nodes anywhere in memory leading to a flexibility in size
+Q: what are the pros and cons of BST?   :  
+A:      
+   
+    1. most operations on BST's are faster than O(n) 
+    2. they are ordered
+    3. we can keep the nodes anywhere in memory leading to a flexibility in size
      which is to say ; we can keep growing our tree dynamically
     
-Q: What are the cons of using BST?:
+Q: What are the cons of using BST?   :   
 A: There are no constant run-time operations of O(1), all operations require traversal
 
 
