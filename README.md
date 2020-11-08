@@ -73,10 +73,10 @@ A: all of the bottom node will equal all of the upper node + 1
 Q: how to calculate the num of nodes of a binary tree
 A: 
 <code>
-  level 0 : 2^0 = 1; // 1 node
-  level 1 : 2^1 = 2; // 2 nodes
-  level 2 : 2^2 = 4; // 4 nodes
-  level 3 : 2^3 = 8; // 8 nodes
+  level 0 : 2^0 = 1; // 1 node <br />
+  level 1 : 2^1 = 2; // 2 nodes <br />
+  level 2 : 2^2 = 4; // 4 nodes <br />
+  level 3 : 2^3 = 8; // 8 nodes <br /> 
 </code>
 Q: how to figure out number of nodes within a binary tree?:
 A: a simple way would be to 2^h ( 2 to the power of the height of tree ), the height of the tree will define how many levels it has so a tree with a height of 3 ( levels ) would fit in an expression as ; ( 2 indicates bynary tree ) 2^3 - 1 === 7 
