@@ -179,3 +179,61 @@ A: prefixes are equivalent to keys in arrays
 
 Q: what is the use case for Trie's?  :  
 A: [ Spell checkers/Auto suggest or correct spellings ] etc 
+
+
+    ::::: BFS ( Breadth First Search ) :::::    
+
+ Q: What is Breadth First Search?   :    
+ A:   
+
+  Q: What is it useful for? :   
+
+  A:    
+
+
+  Q: what is the advantage of BFS over DFS? :   
+  A: 
+    1. Very good for finding shortest path
+      1.1 - due to it attempting to search nodes located on same level first which is to say its nearest neighbors
+    2. can be faster than DFS
+ 
+  Q: What is the time complexity for BFS? : 
+  A: O(n)
+
+    :::: Depth First Search  ::::    
+
+ Q: What is DFS? :    
+
+ A: 
+
+
+ Q: What is it useful for? :   
+
+ A:   
+
+
+  Q: what is the advantage of DFS over BFS? :   
+  A: 
+    1. Requires less memeory than BFS 
+  
+  :::: Comparisons between the two ::::
+
+  // if you know a solution is not far from the root of tree: 
+
+   use : BFS
+
+   // if the tree is very deep and solution are rare:
+
+    use : BFS ( DFS will take a bit long )
+
+  // if the tree is very wide:
+
+    use : DFS ( BFS will need too much memory )
+
+  // if solutions are frequent but located deep in the tree: 
+
+    use : DFS
+
+    
+
+
